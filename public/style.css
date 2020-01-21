@@ -1,0 +1,110 @@
+html, body{
+	 
+}
+html, head{
+	background-color:grey;
+	background-color:grey;
+	background-image:
+		url("stephan-valentin-6NT7jy6OU9I-unsplash.jpg");
+		height: 650px;
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+	
+}
+
+
+.car{background-color: white;}
+.js-name-car{position: fixed; top: 31%; left: 32%;color:white;}
+.js-price-by-km{position: fixed; top: 47%; left: 32%;}
+.js-price-by-day{position: fixed; top: 47%; left: 47%;}
+
+.rental{background-color: white;}
+.js-name-driver{position: fixed; top: 31%; left: 47%;}
+.js-begin{position: fixed; top: 37%; left: 32%;}
+.js-end{position: fixed; top: 38%; left: 47%;}
+.js-distance{position: fixed; top: 55%; left: 47%;}
+.js-option{position: fixed; top: 48%; left: 63%;}
+
+
+
+
+#compute {
+	
+		position: absolute;
+  top: 69%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: grey;
+  color: white;
+  font-size: 16px;
+  padding: 10px 25px;
+  border-color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 5px;
+  text-align: center;
+		
+}
+
+#compute span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#compute span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#compute:hover span {
+  padding-right: 25px;
+}
+
+#compute:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+input[type="text"] {
+  
+  background-color: grey;
+  border-color: white;
+  color: black;
+  padding: 8px 18px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 15px;
+  
+}
+
+input[type="number"] {
+  color: white;
+  background-color: grey;
+  border-color: white;
+  padding: 8px 18px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 15px;
+}
+
+input[type="date"] {
+  color:white;
+  background-color: grey;
+  border-color: white;
+  padding: 8px 18px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 15px;
+}
+
+
